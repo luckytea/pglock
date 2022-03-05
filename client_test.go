@@ -28,8 +28,8 @@ import (
 	"testing"
 	"time"
 
-	"cirello.io/pglock"
 	"github.com/lib/pq"
+	"github.com/luckytea/pglock"
 )
 
 type fakeDriver struct{}
